@@ -262,15 +262,6 @@
 
 } */
 
-
-
-
-
-
-
-
-
-
 .social-a-tag {
   text-decoration: none;
 }
@@ -314,7 +305,6 @@
   display: inline-block;
 }
 
-
 .social-icons a:before {
   content: " ";
   width: 40px;
@@ -331,46 +321,46 @@
   transition: all 265ms ease-in;
 }
 
-#footer-insta-ico-a i{
+#footer-insta-ico-a i {
   color: #da214f;
 }
 
-#footer-insta-ico-a:hover i{
+#footer-insta-ico-a:hover i {
   transform: scale(2.2);
-  background: -webkit-linear-gradient(45deg,#da214f, #da214f);
+  background: -webkit-linear-gradient(45deg, #da214f, #da214f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
 }
 
-#footer-twit-ico-a i{
-color: #192fda;
+#footer-twit-ico-a i {
+  color: #192fda;
 }
-#footer-twit-ico-a:hover i{
+#footer-twit-ico-a:hover i {
   transform: scale(2.2);
-  background: -webkit-linear-gradient(45deg,#192fda, #192fda);
+  background: -webkit-linear-gradient(45deg, #192fda, #192fda);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
 }
-#footer-face-ico-a i{
-color: blue;
+#footer-face-ico-a i {
+  color: blue;
 }
-#footer-face-ico-a:hover i{
+#footer-face-ico-a:hover i {
   transform: scale(2.2);
-  background: -webkit-linear-gradient(45deg,blue, blue);
+  background: -webkit-linear-gradient(45deg, blue, blue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
 }
 
-#footer-youtube-ico-a i{
-color: #da1919;
+#footer-youtube-ico-a i {
+  color: #da1919;
 }
 
-#footer-youtube-ico-a:hover i{
+#footer-youtube-ico-a:hover i {
   transform: scale(2.2);
-  background: -webkit-linear-gradient(45deg,#da1919, #da1919);
+  background: -webkit-linear-gradient(45deg, #da1919, #da1919);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
@@ -379,8 +369,10 @@ color: #da1919;
 .white-image {
   filter: invert(80%);
 }
-.about-path{
+.about-path {
   height: 50px;
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
+  /* background-color: #e7c592; */
+  padding-left: 10%;
 }
