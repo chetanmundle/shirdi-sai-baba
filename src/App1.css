@@ -376,3 +376,11 @@ color: #da1919;
   transition: all 265ms ease-in;
 }
 
+.white-image {
+  filter: invert(80%);
+}
+.about-path{
+  height: 50px;
+display: flex;
+align-items: center;
+}

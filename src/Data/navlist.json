@@ -10,7 +10,7 @@
         "children": [
             {
                 "title": "About Us",
-                "path" : "/"
+                "path" : "/about"
             },
             {
                 "title": "Board Resolutions",

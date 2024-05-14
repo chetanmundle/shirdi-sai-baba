@@ -5,6 +5,7 @@ import Aarti from "../assets/images/aarti.png";
 import Accommodity from "../assets/images/Accommodation.png";
 import Publications from "../assets/images/publications.png";
 import Donate from "../assets/images/donate1.png";
+import membership from "../assets/images/membership.png";
 
 import "../styles.css";
 
@@ -41,7 +42,7 @@ const Services = () => {
               <div className="wave"></div>
 
               <div className="infotop">
-                <img src={Darshan} alt="" className="image" />
+                <img src={Darshan} alt="" className="image  " />
                 <br />
                 Darshan
                 <br />
@@ -109,7 +110,7 @@ const Services = () => {
 
             <div
               className="e-card playing"
-              data-aos="fade-up-left"
+              data-aos="fade-up"
               data-aos-duration="1500"
             >
               <div className="image"></div>
@@ -125,26 +126,23 @@ const Services = () => {
                 <br />
               </div>
             </div>
-          </div>
-        </div>
+            <div
+              className="e-card playing"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
+              <div class="image"></div>
 
-        <div className="three">
-          <div
-            className="e-card playing"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-          >
-            <div class="image"></div>
+              <div className="wave"></div>
+              <div className="wave"></div>
+              <div className="wave"></div>
 
-            <div className="wave"></div>
-            <div className="wave"></div>
-            <div className="wave"></div>
-
-            <div className="infotop">
-              <img src={Donate} alt="" className="image" />
-              <br />
-              Donate
-              <br />
+              <div className="infotop">
+                <img src={Donate} alt="" className="image white-image" />
+                <br />
+                Donate
+                <br />
+              </div>
             </div>
           </div>
         </div>
