@@ -41,7 +41,7 @@
         "children": [
             {
                 "title": "Daily Programme",
-                "path" : "/"
+                "path" : "/dailyprogram"
             },
             {
                 "title": "History",

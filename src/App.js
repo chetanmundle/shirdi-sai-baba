@@ -7,6 +7,7 @@ import Aos from "aos";
 import { Route, Router, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import DailyProgram from "./pages/dailyprogram/DailyProgram";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About/>}/>
+        <Route path="/dailyprogram" element={<DailyProgram/>}/>
       </Routes>
     </div>
   );
