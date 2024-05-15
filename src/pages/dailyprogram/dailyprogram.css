@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    padding-bottom: 48px;
+  }
+
+  .sub-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .section-title {
+    font-weight: bold;
+    font-size: 2xl;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .img-container {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+  }
+ 
+  .img-container-two{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    margin-top: 200px;
+  }
+  
+  
+  .img-details {
+    width: 33.33%;
+  }
+  
+  .line-container {
+    width: 16.67%;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin-top: 50px;
+  }
+  
+  .line {
+    width: 5px;
+    height: 100%;
+    background-color: gray;
+    border-radius: 4px;
+    position: relative;
+  }
+
+  .line-two {
+    width: 5px;
+    height: 100%;
+    background-color: gray;
+    border-radius: 4px;
+    position: relative;
+    margin-top: 200px;
+  }
+  
+  .line-circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid red;
+    background-color: white;
+    position: absolute;
+    left: -7px;
+  }
+  
+  .img-title {
+    background-color: white;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 4px 4px 0 0;
+  }
+  
+  .img-desc {
+    padding: 3px;
+    font-size: small;
+    font-style: italic;
+  }
+  
+  .img-date {
+    padding: 3px;
+    font-size: small;
+    color: red;
+    font-weight: bold;
+  }
+  
+  .img-company {
+    padding: 1px;
+    background-color: white;
+    font-size: small;
+    font-weight: bold;
+    width: fit-content;
+    border-radius: 4px;
+  }
+
+
+  
+
+
+
+
+
+
+  
