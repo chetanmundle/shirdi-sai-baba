@@ -1,19 +1,39 @@
 @media only screen and (max-width: 767px) {
+  .update-card {
+    width: 300px !important;
+  }
 
-    .update-card{
-        width: 300px !important;
-    }
+  .update-bg {
+    width: 290px !important;
+  }
 
-    .update-bg{
-        width: 290px !important;
-    }
+  .update-scrolling-container {
+    width: 300px !important;
+  }
 
-    .update-scrolling-container{
-        width: 300px !important;
-    }
+  .gallery {
+    margin-top: 5px !important;
+  }
 
-    .gallery{
-        margin-top: 5px !important;
-    
-    }
+  .about-info-parent {
+    padding: 15px 1rem 15px 1rem !important;
+  }
+  .about-dataimg {
+    width: 300px !important;
+    height: 200px !important;
+    margin: 20px 40px 0 40px;
+  }
+
+  .about-head h1 {
+    font-size: 20px !important;
+    width: 200px !important;
+    margin-left: 18px !important;
+  }
+
+  .about-imgdata-flex{
+    flex-wrap: wrap;
+  }
+  .about-path span{
+    font-size: 15px !important;
+  }
 }
