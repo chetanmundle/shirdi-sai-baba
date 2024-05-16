@@ -9,15 +9,17 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import DailyProgram from "./pages/dailyprogram/DailyProgram";
 import { AdhocCommittee } from "./pages/AdhocCommittee";
+import Regulations from "./pages/Regulations";
 
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About/>}/>
-        <Route path="/dailyprogram" element={<DailyProgram/>}/>
-        <Route path="/ad-hoc-committee" element={<AdhocCommittee/>}/>
+        <Route path="/about" element={<About />} />
+        <Route path="/dailyprogram" element={<DailyProgram />} />
+        <Route path="/ad-hoc-committee" element={<AdhocCommittee />} />
+        <Route path="/sanathan-rerulation" element={<Regulations />} />
       </Routes>
     </div>
   );

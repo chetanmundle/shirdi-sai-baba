@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import saiadimg from "../assets/images/saiadhoc.jpg";
+import saiadimg from "../assets/images/saimandir.jpg";
 import sudhakarimg from "../assets/images/sudhakar_v.jpg";
 import goraksh from "../assets/images/Goraksh Gadilkar.jpg";
 import collectore from "../assets/images/collector.jpg";
@@ -64,7 +64,7 @@ export const AdhocCommittee = () => {
             <div class="adhok-card">
               <div class="adhok-card__content">
                 <div className="adhok-imgp">
-                  <img src={sudhakarimg} alt="" />
+                  <img src={collectore} alt="" />
                 </div>
                 <div>
                   <div className="adhok-name">
