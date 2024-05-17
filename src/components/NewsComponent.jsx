@@ -3,6 +3,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Donate from "../assets/images/donate1.png";
 import Accommodity from "../assets/images/Accommodation.png";
+import live from "../assets/images/liveimg.png"
 
 
 const NewsComponent = () => {
@@ -50,10 +51,10 @@ const NewsComponent = () => {
           <a class="news-second-card news-education" href="#">
             {/* <div class="news-overlay"></div> */}
             <div class="news-circle">
-              <img src={Donate} alt="" width={"131px"} height={"131px"} />
+              <img src={live} alt="" width={"131px"} height={"131px"} />
             </div>
             <p>
-              <strong>Donate</strong>
+              <strong>Live Darshan</strong>
             </p>
           </a>
         </div>

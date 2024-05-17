@@ -77,4 +77,20 @@
   .adhok-headdiv-head h4 {
     margin: 40px 40px;
   }
+
+  .regulation-left {
+    width: 65%;
+  }
+  .regulation-right {
+    width: 35%;
+  }
+
+  .news-component {
+    /* transform: translate(-50,-50); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 35%;
+  }
 }

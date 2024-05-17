@@ -19,7 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/dailyprogram" element={<DailyProgram />} />
         <Route path="/ad-hoc-committee" element={<AdhocCommittee />} />
-        <Route path="/sanathan-rerulation" element={<Regulations />} />
+        <Route path="/sanathan-regulation" element={<Regulations />} />
       </Routes>
     </div>
   );
