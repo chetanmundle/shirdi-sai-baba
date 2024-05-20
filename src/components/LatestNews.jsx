@@ -7,13 +7,6 @@ import Gate from "../assets/images/gate.png";
 const LatestNews = () => {
   return (
     <section>
-      <div className="title-wrapper about-title-wrapper">
-        <div className="about-head">
-          <h3>
-            <span className="about-head-span">News</span>
-          </h3>
-        </div>
-      </div>
       <div className="tablewrap">
         {/* <div className="toran">
           <img src={Gate} alt="" />

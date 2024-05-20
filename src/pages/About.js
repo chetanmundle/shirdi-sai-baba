@@ -11,6 +11,7 @@ import GalleryComponent from "../components/GalleryComponent";
 import saiimg from "../assets/images/Shirdi-1.png";
 import Gallery1 from "../components/Gallery";
 import saibabaimg from "../assets/images/saibaba4.jpg";
+import regimg from "../assets/images/templeimgregulation.jpg";
 
 const About = () => {
   return (
@@ -30,7 +31,7 @@ const About = () => {
 
       <div
         className="about-background"
-        style={{ backgroundImage: `url(${saiimg})` }}
+        style={{ backgroundImage: `url(${regimg})` }}
       ></div>
 
       <div className="about-head">

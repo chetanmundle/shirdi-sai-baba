@@ -5,6 +5,7 @@ import saiadimg from "../assets/images/saimandir.jpg";
 import sudhakarimg from "../assets/images/sudhakar_v.jpg";
 import goraksh from "../assets/images/Goraksh Gadilkar.jpg";
 import collectore from "../assets/images/collector.jpg";
+import regimg from "../assets/images/templeimgregulation.jpg";
 
 export const AdhocCommittee = () => {
   return (
@@ -12,7 +13,7 @@ export const AdhocCommittee = () => {
       <Navbar />
       <div
         className="about-background"
-        style={{ backgroundImage: `url(${saiadimg})` }}
+        style={{ backgroundImage: `url(${regimg})` }}
       ></div>
 
       <div>
