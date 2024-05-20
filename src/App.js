@@ -11,10 +11,17 @@ import DailyProgram from "./pages/dailyprogram/DailyProgram";
 import History from "./pages/history/History";
 import { AdhocCommittee } from "./pages/AdhocCommittee";
 import Regulations from "./pages/Regulations";
+// import Regulations from "./pages/Regulations";
 
-import { AdhocCommittee } from "./pages/AdhocCommittee";
-import Regulations from "./pages/Regulations";
-import History from "./pages/history/History"
+// import { AdhocCommittee } from "./pages/AdhocCommittee";
+// import Regulations from "./pages/Regulations";
+// import History from "./pages/history/History"
+
+
+// import Regulations from "./pages/Regulations";
+// import { AdhocCommittee } from "./pages/AdhocCommittee";
+// import Regulations from "./pages/Regulations";
+// import History from "./pages/history/History"
 
 function App() {
   return (
