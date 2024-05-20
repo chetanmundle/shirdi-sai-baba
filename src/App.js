@@ -11,24 +11,28 @@ import DailyProgram from "./pages/dailyprogram/DailyProgram";
 import History from "./pages/history/History";
 import { AdhocCommittee } from "./pages/AdhocCommittee";
 import Regulations from "./pages/Regulations";
-// >>>>>>> a999fe277df3188b0c73761b5cf5a7a62260477c
+
+import { AdhocCommittee } from "./pages/AdhocCommittee";
+import Regulations from "./pages/Regulations";
+import History from "./pages/history/History"
 
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
-{/* <<<<<<< HEAD */}
-        <Route path="/about" element={<About/>}/>
+       <Route path="/about" element={<About/>}/>
         <Route path="/dailyprogram" element={<DailyProgram/>}/>
         <Route path="/history" element={<History/>}/>
 
-{/* ======= */}
+
         <Route path="/about" element={<About />} />
         <Route path="/dailyprogram" element={<DailyProgram />} />
         <Route path="/ad-hoc-committee" element={<AdhocCommittee />} />
         <Route path="/sanathan-regulation" element={<Regulations />} />
-{/* >>>>>>> a999fe277df3188b0c73761b5cf5a7a62260477c */}
+
+        <Route path="/history" element={<History/>}/>
+
       </Routes>
     </div>
   );

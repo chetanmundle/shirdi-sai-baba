@@ -6,7 +6,7 @@ import Social from "../../components/social-icon/Social";
 import Footer from "../../components/Footer";
 import saiimg from "../../assets/images/saibaba4.jpg";
 import sai1 from "../../assets/d410e834fe67c2e7af11985785e25aaa.jpg"
-
+import regimg from "../../assets/images/templeimgregulation.jpg";
 
 const History = () => {
 
@@ -29,22 +29,13 @@ const History = () => {
 
         <div
           className="about-background"
-          style={{ backgroundImage: `url(${saiimg})` }}
+          style={{ backgroundImage: `url(${regimg})` }}
         ></div>
 
         <div className="about-head">
           <h1>History</h1>
         </div>
 
-
-
-//componentsACCOR
-
-
-
-
-
-//componentsbook
     <div className="scene">
       <div className="book-wrap">
         <div className="left-side">
