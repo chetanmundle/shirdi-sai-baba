@@ -8,17 +8,29 @@ import { Route, Router, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import DailyProgram from "./pages/dailyprogram/DailyProgram";
+<<<<<<< HEAD
 import History from "./pages/history/History";
+=======
+import { AdhocCommittee } from "./pages/AdhocCommittee";
+import Regulations from "./pages/Regulations";
+>>>>>>> a999fe277df3188b0c73761b5cf5a7a62260477c
 
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
+<<<<<<< HEAD
         <Route path="/about" element={<About/>}/>
         <Route path="/dailyprogram" element={<DailyProgram/>}/>
         <Route path="/history" element={<History/>}/>
 
+=======
+        <Route path="/about" element={<About />} />
+        <Route path="/dailyprogram" element={<DailyProgram />} />
+        <Route path="/ad-hoc-committee" element={<AdhocCommittee />} />
+        <Route path="/sanathan-regulation" element={<Regulations />} />
+>>>>>>> a999fe277df3188b0c73761b5cf5a7a62260477c
       </Routes>
     </div>
   );

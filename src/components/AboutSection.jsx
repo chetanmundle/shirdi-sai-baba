@@ -35,14 +35,13 @@ const AboutSection = () => {
           <h3>
             <span className="about-head-span">About Us</span>
           </h3>
-          {/* <Test/> */}
         </div>
         {/* <div className='img-container'>
                     <img classname='img' src={Logo} alt="" width={100} />
                 </div> */}
       </div>
 
-      <div>
+      {/* <div>
         <div className="pillar">
           <img src={Pillar} alt="" className="pillar1-img" />
         </div>
@@ -50,7 +49,7 @@ const AboutSection = () => {
         <div className="pillar2">
           <img src={Pillar2} alt="" className="pillar1-img"/>
         </div>
-      </div>
+      </div> */}
 
       <div className="contain">
         <div
