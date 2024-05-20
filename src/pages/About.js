@@ -8,7 +8,7 @@ import accommodation from "../assets/images/Accommodation.png";
 import donate from "../assets/images/donate1.png";
 import Services from "../components/Services";
 import GalleryComponent from "../components/GalleryComponent";
-import saiimg from "../assets/images/Shirdi-1.png";
+// import saiimg from "../assets/images/Shirdi-1.png";
 import Gallery1 from "../components/Gallery";
 import saibabaimg from "../assets/images/saibaba4.jpg";
 import regimg from "../assets/images/templeimgregulation.jpg";
