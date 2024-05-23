@@ -47,7 +47,7 @@ const TheTemple = () => {
                 <div className="about-path">
                     <span> Home &#9654; Sai Temple &#9654; The Temple</span>
                 </div>
-                <div className="adhok-head">
+                <div className="about-head">
                     <h1>Temple Complex</h1>
                 </div>
             </div>
