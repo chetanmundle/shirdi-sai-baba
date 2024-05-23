@@ -1,72 +1,74 @@
-import React, { useRef } from 'react';
-import { delay, motion, useInView } from 'framer-motion';
-import "./dailyprogram.css"
-import { duration } from '@mui/material';
-import map from "../../assets/map.png"
+import React from 'react';
+import { motion } from 'framer-motion';
+import "./dailyprogram.css";
+import map from "../../assets/map.png";
+import Navbar from '../../components/Navbar';
+import Social from '../../components/social-icon/Social';
+import Footer from '../../components/Footer';
+import saiimg from "../../assets/images/saibaba4.jpg";
+import timelineElements from './timelineElements';
+import { ReactComponent as WorkIcon } from "./namaste.svg";
+import { ReactComponent as SchoolIcon } from "./namaste.svg";
+import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
 
 const DailyProgram = () => {
-//   const experienceRef = useRef();
-//   const isExperienceRefInView = useInView(experienceRef, { margin: '-100px' });
+
+  let workIconStyles = { background: "#f9c74f" };
+  let schoolIconStyles = { background: "#f9c74f" };
 
   return (
-    <div className="container">
-      <motion.h1
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1 }}
-        className="section-title"
-      >
-   Shedule
-      </motion.h1>
-
-
-<div className="sub-container">
-
-      <motion.div
-        whileInView={{ opacity: 1, x: 0 }}
-        initial={{ opacity: 0, x: -100 }}
-        transition={{ duration: 1 }}
-        className=""
-        >
-
-
-        <div className="img-container">
-          {/* <div className="img-details">
-            <div className="img-title">Heading</div>
-             </div> */}
-        <img src={map} alt="" />
-
+    <>
+      <div className="about-main">
+        <Navbar />
+        <Social />
+        <marquee behavior="" direction="">
+          🚩
+          <span className="about-marquee">
+            Shri Saibaba Sansthan Trust, Shirdi
+          </span>
+          🚩
+        </marquee>
+        <div className="about-path">
+          <span> Home &#9654; About Sanathan &#9654; About Us</span>
         </div>
 
-        </motion.div>
+        <div
+          className="about-background"
+          style={{ backgroundImage: `url(${saiimg})` }}
+        ></div>
 
-        <div className="line-container">
-          <div className="line">
-          <div className="line-circle"></div>
-          </div>
-           <div className="line-two">
-          <div className="line-circle"></div>
-          </div>
-          </div>
-
-        <motion.div
-        whileInView={{ opacity: 1, x: 0 }}
-        initial={{ opacity: 0, x: 100 }}
-        transition={{ duration:1}}
-        className=""
-        >
-        <div className="img-container-two">
-          {/* <div className="img-details">
-            <div className="img-title">Heading</div>
-             </div> */}
-        <img src={map} alt="" />
-
+        <div className="about-head">
+          <h1>Daily Programme</h1>
         </div>
-        </motion.div>
-        
 
-    </div>
+        <div className="timeline-container">
+          <VerticalTimeline>
+            {timelineElements.map((element) => {
+              let isWorkIcon = element.icon === "work";
+              return (
+                <VerticalTimelineElement
+                  key={element.id}
+                  // date={element.title}
+                  // dateClassName="date"
+                  iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
+                  icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
+                >
+                  <h3 className="vertical-timeline-element-title">
+                    {element.title}
+                  </h3>
+                  <p className="vertical-timeline-element-description">
+                    {element.description}
+                  </p>
+                </VerticalTimelineElement>
+              );
+            })}
+          </VerticalTimeline>
         </div>
+
+        <Footer />
+      </div>
+    </>
   );
 };
 

@@ -8,9 +8,9 @@ const LatestNews = () => {
   return (
     <section>
       <div className="tablewrap">
-        <div className="toran">
+        {/* <div className="toran">
           <img src={Gate} alt="" />
-        </div>
+        </div> */}
         <div className="wrap">
           <div
             className="latest-news"

@@ -373,6 +373,7 @@
   height: 150px;
   display: flex;
   padding-left: 10%;
+  color: white;
 }
 .about-path span {
 }
@@ -386,6 +387,7 @@
 
 .about-head {
   /* text-align: center; */
+
 }
 .about-head h1 {
   font-size: 40px;

@@ -1278,7 +1278,7 @@ footer {
     margin: auto; 
     margin-top: 2%;  /* Optional, for visualization */
    gap: 2%;
-  padding-top: 3%;
+  padding-top: 5%;
   padding-bottom: 3%;
  
 }
@@ -1313,20 +1313,26 @@ footer {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 70px;
+padding-top: 5% ;
+padding-bottom: 5% ;
 }
 
 .card_box {
   width: 350px;
   height: 400px;
   border-radius: 20px;
+  /* Uncomment and use the background you want */
   /* background: linear-gradient(170deg, rgba(58, 56, 56, 0.623) 0%, rgb(31, 31, 31) 100%); */
   /* background: url("assets/images/lendibaug.jpg") no-repeat center center; */
   background-size: cover; /* Ensures the image covers the entire box */
-  background-position: center center; /* Centers the background image */  position: relative;
+  background-position: center center; /* Centers the background image */
+  background-repeat: no-repeat; /* Ensures the background image does not repeat */
+  position: relative;
   box-shadow: 0 25px 50px rgba(0,0,0,0.55);
   cursor: pointer;
   transition: all .3s;
+  border: 2px solid white;
 }
 
 .card_box:hover {
@@ -1346,11 +1352,11 @@ footer {
 }
 
 .card_box span::before {
-  content: 'Lendi Garden';
+  content: attr(data-text); /* Use 'attr(data-text)' to dynamically set content */
   position: absolute;
   width: 150%;
   height: 40px;
-  background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);
+  background-image: linear-gradient(45deg, #ff6547 0%, #ffb144 51%, #ff7053 100%);
   transform: rotate(-45deg) translateY(-20px);
   display: flex;
   align-items: center;
@@ -1359,8 +1365,10 @@ footer {
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.23);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23);
 }
+
+
 
 .card_box span::after {
   content: '';
