@@ -12,6 +12,7 @@ import DailyProgram from "./pages/dailyprogram/DailyProgram";
 import { AdhocCommittee } from "./pages/AdhocCommittee";
 import Regulations from "./pages/Regulations";
 import History from "./pages/history/History"
+import Resolution from "./pages/Resolution/Resolution";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/ad-hoc-committee" element={<AdhocCommittee />} />
         <Route path="/sanathan-regulation" element={<Regulations />} />
         <Route path="/history" element={<History/>}/>
+        <Route path="/resolution" element={<Resolution/>}/>
       </Routes>
     </div>
   );
