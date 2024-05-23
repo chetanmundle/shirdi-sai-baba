@@ -11,23 +11,35 @@ import DailyProgram from "./pages/dailyprogram/DailyProgram";
 import History from "./pages/history/History";
 import { AdhocCommittee } from "./pages/AdhocCommittee";
 import Regulations from "./pages/Regulations";
-import TheTemple from "./pages/TheTemple";
+// import Regulations from "./pages/Regulations";
+
+// import { AdhocCommittee } from "./pages/AdhocCommittee";
+// import Regulations from "./pages/Regulations";
+// import History from "./pages/history/History"
+
+
+// import Regulations from "./pages/Regulations";
+// import { AdhocCommittee } from "./pages/AdhocCommittee";
+// import Regulations from "./pages/Regulations";
+// import History from "./pages/history/History"
 
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
-       <Route path="/about" element={<About/>}/>
-        <Route path="/dailyprogram" element={<DailyProgram/>}/>
-        <Route path="/history" element={<History/>}/>
-
+        <Route path="/about" element={<About />} />
+        <Route path="/dailyprogram" element={<DailyProgram />} />
+        <Route path="/history" element={<History />} />
 
         <Route path="/about" element={<About />} />
         <Route path="/dailyprogram" element={<DailyProgram />} />
         <Route path="/ad-hoc-committee" element={<AdhocCommittee />} />
         <Route path="/sanathan-regulation" element={<Regulations />} />
-        <Route path="/the-temple" element={<TheTemple />} />
+
+        <Route path="/history" element={<History/>}/>
+        <Route path="/history" element={<History/>}/>
+
       </Routes>
     </div>
   );
