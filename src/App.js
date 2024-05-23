@@ -10,6 +10,7 @@ import About from "./pages/About";
 import DailyProgram from "./pages/dailyprogram/DailyProgram";
 import { AdhocCommittee } from "./pages/AdhocCommittee";
 import Regulations from "./pages/Regulations";
+import TheTemple from "./pages/TheTemple";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/dailyprogram" element={<DailyProgram />} />
         <Route path="/ad-hoc-committee" element={<AdhocCommittee />} />
         <Route path="/sanathan-regulation" element={<Regulations />} />
+        <Route path="/the-temple" element={<TheTemple />} />
       </Routes>
     </div>
   );

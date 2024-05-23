@@ -12,6 +12,7 @@
     "embla-carousel-autoplay": "^8.0.0",
     "embla-carousel-react": "^8.0.0",
     "framer-motion": "^11.2.0",
+    "i": "^0.3.7",
     "postcss": "^8.4.38",
     "postcss-cli": "^11.0.0",
     "react": "^18.2.0",
