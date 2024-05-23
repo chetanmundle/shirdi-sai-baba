@@ -30,15 +30,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/dailyprogram" element={<DailyProgram />} />
-        <Route path="/history" element={<History />} />
-
-        <Route path="/about" element={<About />} />
-        <Route path="/dailyprogram" element={<DailyProgram />} />
         <Route path="/ad-hoc-committee" element={<AdhocCommittee />} />
         <Route path="/sanathan-regulation" element={<Regulations />} />
-
         <Route path="/history" element={<History />} />
-
         <Route path="/resolution" element={<Resolution />} />
       </Routes>
     </div>
