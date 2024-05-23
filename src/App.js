@@ -8,11 +8,20 @@ import { Route, Router, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import DailyProgram from "./pages/dailyprogram/DailyProgram";
-
+import History from "./pages/history/History";
 import { AdhocCommittee } from "./pages/AdhocCommittee";
 import Regulations from "./pages/Regulations";
-import History from "./pages/history/History"
 import Resolution from "./pages/Resolution/Resolution";
+// import Regulations from "./pages/Regulations";
+
+// import { AdhocCommittee } from "./pages/AdhocCommittee";
+// import Regulations from "./pages/Regulations";
+// import History from "./pages/history/History"
+
+// import Regulations from "./pages/Regulations";
+// import { AdhocCommittee } from "./pages/AdhocCommittee";
+// import Regulations from "./pages/Regulations";
+// import History from "./pages/history/History"
 
 function App() {
   return (
@@ -21,10 +30,16 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/dailyprogram" element={<DailyProgram />} />
+        <Route path="/history" element={<History />} />
+
+        <Route path="/about" element={<About />} />
+        <Route path="/dailyprogram" element={<DailyProgram />} />
         <Route path="/ad-hoc-committee" element={<AdhocCommittee />} />
         <Route path="/sanathan-regulation" element={<Regulations />} />
-        <Route path="/history" element={<History/>}/>
-        <Route path="/resolution" element={<Resolution/>}/>
+
+        <Route path="/history" element={<History />} />
+
+        <Route path="/resolution" element={<Resolution />} />
       </Routes>
     </div>
   );
