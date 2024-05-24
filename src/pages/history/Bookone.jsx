@@ -31,7 +31,7 @@ const Bookone = () => {
             <div className="page-text">
               <div 
                style={{
-                height:"20px", 
+                height:"150px", 
                 margin:"1rem 0 0 1rem",
                 display:"flex",
                 justifyContent:"center"

@@ -15,9 +15,15 @@ import Bookone from "./Bookone";
 
 
 const data = [
-  { id: 1, question: 'What is React?', answer: 'React is a JavaScript library for building user interfaces.' },
-  { id: 2, question: 'What is Framer Motion?', 
+  { id: 1, question: 'Introduction', answer: < Bookone/> },
+  { id: 2, question: 'Mission & Advice', 
   answer: < Bookone/> },
+  { id: 3, question: 'Wonderful Incarnation', answer: < Bookone/> },
+  { id: 4, question: 'Udi', answer: < Bookone/> },
+  { id: 5, question: 'Personality', answer: < Bookone/> },
+  { id: 6, question: 'Personal Belongings', answer: < Bookone/> },
+  { id: 7, question: 'Chronology', answer: < Bookone/> },
+
 ];
 
 
