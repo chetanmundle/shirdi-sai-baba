@@ -13,6 +13,7 @@ import { AdhocCommittee } from "./pages/AdhocCommittee";
 import Regulations from "./pages/Regulations";
 import Resolution from "../src/pages/Resolution/Resolution"
 import TheTemple from "./pages/TheTemple";
+import Saicharita from "./pages/saicharita/Saicharita";
 // import Regulations from "./pages/Regulations";
 
 // import { AdhocCommittee } from "./pages/AdhocCommittee";
@@ -39,6 +40,8 @@ function App() {
 
         <Route path="/resolution" element={<Resolution />} />
         <Route path="/the-temple" element={<TheTemple />} />
+        <Route path="/saicharita" element={<Saicharita/>} />
+
 
       </Routes>
     </div>
