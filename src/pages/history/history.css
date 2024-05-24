@@ -686,14 +686,14 @@ html {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  
+/*   
   .item {
     border-bottom: 1px solid #ddd;
-  }
+  } */
   
-  .item:last-child {
+  /* .item:last-child {
     border-bottom: none;
-  }
+  } */
   
   .title {
     display: flex;

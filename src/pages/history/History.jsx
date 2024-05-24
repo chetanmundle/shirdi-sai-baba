@@ -7,7 +7,8 @@ import Social from "../../components/social-icon/Social";
 import Footer from "../../components/Footer";
 import saiimg from "../../assets/images/saibaba4.jpg";
 import regimg from "../../assets/images/templeimgregulation.jpg";
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import Bookone from "./Bookone";
 
 
@@ -15,14 +16,14 @@ import Bookone from "./Bookone";
 
 
 const data = [
-  { id: 1, question: 'Introduction', answer: < Bookone/> },
-  { id: 2, question: 'Mission & Advice', 
-  answer: < Bookone/> },
-  { id: 3, question: 'Wonderful Incarnation', answer: < Bookone/> },
-  { id: 4, question: 'Udi', answer: < Bookone/> },
-  { id: 5, question: 'Personality', answer: < Bookone/> },
-  { id: 6, question: 'Personal Belongings', answer: < Bookone/> },
-  { id: 7, question: 'Chronology', answer: < Bookone/> },
+  { id: 1, heading: 'Introduction', sunhead: < Bookone/> },
+  { id: 2, heading: 'Mission & Advice', 
+  sunhead: < Bookone/> },
+  { id: 3, heading: 'Wonderful Incarnation', sunhead: < Bookone/> },
+  { id: 4, heading: 'Udi', sunhead: < Bookone/> },
+  { id: 5, heading: 'Personality', sunhead: < Bookone/> },
+  { id: 6, heading: 'Personal Belongings', sunhead: < Bookone/> },
+  { id: 7, heading: 'Chronology', sunhead: < Bookone/> },
 
 ];
 
@@ -66,35 +67,7 @@ const History = () => {
         </div>
 
 
-
-
-{/* //acordation */}
-{/* <div className="acc-wrapper">
-      <div className="accordian">
-        {data && data.length > 0 ? (
-          data.map((dataItem) => (
-            <div className="item">
-              <div
-                onClick={
-              () => handleSingleSelection(dataItem.id)
-                }
-                className="title"
-              >
-                <h3>{dataItem.question}</h3>
-                <span>+</span>
-              </div>
-              {selected === dataItem.id && (
-                    <div className="acc-content ">{dataItem.answer}</div>
-                  )}
-            </div>
-          ))
-        ) : (
-          <div>No data found !</div>
-        )}
-      </div>
-    </div> */}
-
- <div className="acc-wrapper">
+        <div className="acc-wrapper">
       <div className="accordion">
         {data && data.length > 0 ? (
           data.map((dataItem) => (
@@ -103,19 +76,22 @@ const History = () => {
                 onClick={() => handleSingleSelection(dataItem.id)}
                 className="title"
               >
-                <h3>{dataItem.question}</h3>
+                <h3>{dataItem.heading}</h3>
                 <span className="button">{selected === dataItem.id ? '-' : '+'}</span>
               </div>
-              {selected === dataItem.id && (
-                <motion.div 
-                  className="acc-content"
-                  initial={{ opacity: 0, height: 0 }}
-                  animate={{ opacity: 1, height: 'auto' }}
-                  exit={{ opacity: 0, height: 0 }}
-                >
-                  {dataItem.answer}
-                </motion.div>
-              )}
+              <AnimatePresence initial={false}>
+                {selected === dataItem.id && (
+                  <motion.div 
+                    className="acc-content"
+                    initial={{ opacity: 0, height: 0 }}
+                    animate={{ opacity: 1, height: 'auto' }}
+                    exit={{ opacity: 0, height: 0 }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    {dataItem.sunhead}
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
           ))
         ) : (

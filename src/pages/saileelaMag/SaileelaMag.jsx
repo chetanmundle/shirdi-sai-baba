@@ -1,51 +1,6 @@
-// import React from 'react';
-// import "./saicharita.css";
-// import Navbar from '../../components/Navbar';
-// import Social from '../../components/social-icon/Social';
-// import Footer from '../../components/Footer';
-// import saiimg from "../../assets/images/saibaba4.jpg";
-// import "react-vertical-timeline-component/style.min.css";
-
-// const Saicharita = () => {
-
-
-
-//   return (
-//     <>
-//       <div className="about-main">
-//         <Navbar />
-//         <Social />
-//         <marquee behavior="" direction="">
-//           🚩
-//           <span className="about-marquee">
-//             Shri Saibaba Sansthan Trust, Shirdi
-//           </span>
-//           🚩
-//         </marquee>
-//         <div className="about-path">
-//           <span> Home &#9654; About Sanathan &#9654; About Us</span>
-//         </div>
-
-//         <div
-//           className="about-background"
-//           style={{ backgroundImage: `url(${saiimg})` }}
-//         ></div>
-
-//         <div className="about-head">
-//           <h1>Saicharita</h1>
-//         </div>
-
-       
-//         <Footer />
-//       </div>
-//     </>
-//   );
-// };
-
-// export default Saicharita;
 
 import React from 'react';
-import "./saicharita.css";
+import "./saileelamag.css";
 import Navbar from '../../components/Navbar';
 import Social from '../../components/social-icon/Social';
 import Footer from '../../components/Footer';
@@ -55,7 +10,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { Link } from 'react-router-dom';
 import { cardData } from './cardData';
 
-const Saicharita = () => {
+const SaileelaMag = () => {
   return (
     <>
       <div className="about-main">
@@ -78,7 +33,7 @@ const Saicharita = () => {
         ></div>
 
         <div className="about-head">
-          <h1>Saicharita</h1>
+          <h1>Saileela Magzine</h1>
         </div>
 
         <div className="cards-container">
@@ -105,4 +60,5 @@ const Saicharita = () => {
   );
 };
 
-export default Saicharita;
+export default SaileelaMag;
+
