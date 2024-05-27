@@ -111,7 +111,7 @@
         "children": [
             {
                 "title": "Saicharitra in PDF",
-                "path" : "/"
+                "path" : "/saicharita"
             },
             {
                 "title": "Aarti Audio",
@@ -119,7 +119,7 @@
             },
             {
                 "title" : "Saileela Magazine",
-                "path" : "/"
+                "path" : "/saileelamag"
             }, 
             {
                 "title" : "Price List",

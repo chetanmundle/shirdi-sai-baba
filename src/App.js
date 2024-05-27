@@ -40,7 +40,7 @@ function App() {
 
         <Route path="/resolution" element={<Resolution />} />placetovisit
         <Route path="/the-temple" element={<TheTemple />} />
-        <Route path="/placetovisit" element={<PlacesAroundShirdi />} />
+        <Route path="/placetovisit" element={<PlacesAroundShirdi/>} />
 
       </Routes>
     </div>
