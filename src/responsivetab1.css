@@ -71,7 +71,7 @@
   }
 
   .about-head h1 {
-    width: 250px;
+    /* width: 250px; */
     margin-left: 50px;
   }
   .adhok-headdiv-head h4 {
@@ -93,4 +93,7 @@
 
     width: 35%;
   }
+
+    /* for temple premise page */
+
 }

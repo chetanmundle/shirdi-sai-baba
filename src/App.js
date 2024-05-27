@@ -13,6 +13,7 @@ import { AdhocCommittee } from "./pages/AdhocCommittee";
 import Regulations from "./pages/Regulations";
 import Resolution from "../src/pages/Resolution/Resolution"
 import TheTemple from "./pages/TheTemple";
+import PlacesAroundShirdi from "./pages/PlacesAroundShirdi";
 // import Regulations from "./pages/Regulations";
 
 // import { AdhocCommittee } from "./pages/AdhocCommittee";
@@ -37,8 +38,9 @@ function App() {
 
         <Route path="/history" element={<History />} />
 
-        <Route path="/resolution" element={<Resolution />} />
+        <Route path="/resolution" element={<Resolution />} />placetovisit
         <Route path="/the-temple" element={<TheTemple />} />
+        <Route path="/placetovisit" element={<PlacesAroundShirdi />} />
 
       </Routes>
     </div>
