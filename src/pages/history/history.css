@@ -695,7 +695,7 @@ html {
     border-bottom: none;
   } */
   
-  .title {
+  .new-new-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -704,11 +704,11 @@ html {
     transition: background-color 0.3s ease;
   }
   
-  .title:hover {
+  .new-new-title:hover {
     background-color: #f0f0f0;
   }
   
-  .title h3 {
+  .new-new-title h3 {
     margin: 0;
     font-size: 16px;
     font-weight: normal;

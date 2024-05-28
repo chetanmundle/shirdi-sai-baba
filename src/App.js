@@ -3,8 +3,8 @@ import "./responsive.css";
 import "./responsive1.css";
 import "./App1.css";
 import "./responsivetab1.css";
-import Aos from "aos";
-import { Route, Router, Routes } from "react-router-dom";
+// import Aos from "aos";
+import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import DailyProgram from "./pages/dailyprogram/DailyProgram";
@@ -15,17 +15,8 @@ import Resolution from "../src/pages/Resolution/Resolution"
 import TheTemple from "./pages/TheTemple";
 import Saicharita from "./pages/saicharita/Saicharita";
 import SaileelaMag from "./pages/saileelaMag/SaileelaMag";
-// import Regulations from "./pages/Regulations";
+import AnnualReports from "./pages/Annual Reports/AnnualReports";
 
-// import { AdhocCommittee } from "./pages/AdhocCommittee";
-// import Regulations from "./pages/Regulations";
-// import History from "./pages/history/History"
-
-
-// import Regulations from "./pages/Regulations";
-// import { AdhocCommittee } from "./pages/AdhocCommittee";
-// import Regulations from "./pages/Regulations";
-// import History from "./pages/history/History"
 
 function App() {
   return (
@@ -43,10 +34,9 @@ function App() {
         <Route path="/the-temple" element={<TheTemple />} />
         <Route path="/saicharita" element={<Saicharita/>} />
         <Route path="/saileelamag" element={<SaileelaMag/>} />
+        <Route path="/annualreports" element={<AnnualReports/>} />
 
-        
-
-
+      
       </Routes>
     </div>
   );

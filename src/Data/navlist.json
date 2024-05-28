@@ -24,13 +24,10 @@
                 "title" : "Sansthan Regulations",
                 "path" : "/sanathan-regulation"
             }, 
-            {
-                "title" : "Work Tenure",
-                "path" : "/"
-            }, 
+       
             {
                 "title" : "Annual Reports",
-                "path" : "/"
+                "path" : "/annualreports"
             }
         ]
     } ,

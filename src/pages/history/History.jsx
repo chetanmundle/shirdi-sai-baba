@@ -74,7 +74,7 @@ const History = () => {
             <div className="item" key={dataItem.id}>
               <div
                 onClick={() => handleSingleSelection(dataItem.id)}
-                className="title"
+                className="new-new-title"
               >
                 <h3>{dataItem.heading}</h3>
                 <span className="button">{selected === dataItem.id ? '-' : '+'}</span>
