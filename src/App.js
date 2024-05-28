@@ -16,6 +16,7 @@ import TheTemple from "./pages/TheTemple";
 import Saicharita from "./pages/saicharita/Saicharita";
 import SaileelaMag from "./pages/saileelaMag/SaileelaMag";
 import AnnualReports from "./pages/Annual Reports/AnnualReports";
+import PlacesAroundShirdi from "./pages/PlacesAroundShirdi";
 
 
 function App() {
@@ -30,13 +31,10 @@ function App() {
 
         <Route path="/history" element={<History />} />
 
-        <Route path="/resolution" element={<Resolution />} />
+        <Route path="/resolution" element={<Resolution />} />placetovisit
         <Route path="/the-temple" element={<TheTemple />} />
-        <Route path="/saicharita" element={<Saicharita/>} />
-        <Route path="/saileelamag" element={<SaileelaMag/>} />
-        <Route path="/annualreports" element={<AnnualReports/>} />
+        <Route path="/placetovisit" element={<PlacesAroundShirdi/>} />
 
-      
       </Routes>
     </div>
   );
