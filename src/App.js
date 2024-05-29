@@ -14,6 +14,7 @@ import Regulations from "./pages/Regulations";
 import Resolution from "../src/pages/Resolution/Resolution"
 import TheTemple from "./pages/TheTemple";
 import PlacesAroundShirdi from "./pages/PlacesAroundShirdi";
+import Gallery from "./pages/PhotoGallery";
 // import Regulations from "./pages/Regulations";
 
 // import { AdhocCommittee } from "./pages/AdhocCommittee";
@@ -36,6 +37,7 @@ function App() {
         <Route path="/resolution" element={<Resolution />} />
         <Route path="/the-temple" element={<TheTemple />} />
         <Route path="/placetovisit" element={<PlacesAroundShirdi/>} />
+        <Route path="/gallery" element={<Gallery/>} />
 
       </Routes>
     </div>
