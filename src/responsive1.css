@@ -57,4 +57,43 @@
   }
 
   /* for temple premise page */
+  .information {
+    flex-direction: column; /* Stack items vertically */
+    padding-top: 2%;
+    padding-bottom: 1%;
+  }
+
+  .info {
+    max-width: 100%;        /* Ensure each container takes full width */
+    padding: 5px;  
+          /* Adjust padding as needed */
+  }
+  .info p{
+    font-size: 12px;
+    /* font-weight: 300; */
+  }
+
+  .info-img img {
+    height: auto;           /* Ensure image scales properly */
+    border-radius: 5px;     /* Slightly larger border-radius for mobile */
+  }
+
+  /* places */
+  .places-head h1{
+    font-size: 18px !important;
+    width: 200px !important;
+    margin-left: 10px !important;
+  }
+
+  .places_section {
+
+    grid-template-columns: repeat(1, 1fr);
+   
+  }
+  .places_image{
+    margin-left: 5%;
+  } 
+  .places_paragraph {
+    font-size: 12px;
+  }
 }

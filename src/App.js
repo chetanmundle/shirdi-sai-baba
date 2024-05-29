@@ -14,6 +14,8 @@ import Regulations from "./pages/Regulations";
 import Resolution from "../src/pages/Resolution/Resolution"
 import TheTemple from "./pages/TheTemple";
 import PlacesAroundShirdi from "./pages/PlacesAroundShirdi";
+import Festival from "./pages/Festival";
+import PhotoGallery from "./pages/PhotoGallery";
 // import Regulations from "./pages/Regulations";
 
 // import { AdhocCommittee } from "./pages/AdhocCommittee";
@@ -41,6 +43,8 @@ function App() {
         <Route path="/resolution" element={<Resolution />} />placetovisit
         <Route path="/the-temple" element={<TheTemple />} />
         <Route path="/placetovisit" element={<PlacesAroundShirdi/>} />
+        <Route path="/festival" element={<Festival/>} />
+        <Route path="/gallery" element={<PhotoGallery/>} />
 
       </Routes>
     </div>

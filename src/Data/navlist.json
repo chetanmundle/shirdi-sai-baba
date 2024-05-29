@@ -49,7 +49,7 @@
             },
             {
                 "title" : "Festivals",
-                "path" : "/"
+                "path" : "/festival"
             }, 
             {
                 "title" : "The Temple",
@@ -84,7 +84,7 @@
             },
             {
                 "title" : "Photo Gallery",
-                "path" : "/"
+                "path" : "/gallery"
             }, 
             {
                 "title" : "Downloads",

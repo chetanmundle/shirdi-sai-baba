@@ -96,4 +96,32 @@
 
     /* for temple premise page */
 
+  .information {
+    flex-direction: column; /* Stack items vertically */
+    margin: auto; 
+    margin-top: 2%;  /* Optional, for visualization */
+  
+  padding-top: 5%;
+  padding-bottom: 3%;
+  }
+
+  .info {
+    max-width: 100%;        /* Ensure each container takes full width */
+    padding: 5px;           /* Adjust padding as needed */
+  }
+
+
+  /* places */
+  .places-head{
+    margin-left: 50px;
+  }
+  .places_section {
+
+    grid-template-columns: repeat(1, 1fr);
+   
+  }
+  .places_image{
+    margin-left: 5%;
+  } 
+
 }
