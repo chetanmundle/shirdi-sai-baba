@@ -3,8 +3,8 @@ import "./responsive.css";
 import "./responsive1.css";
 import "./App1.css";
 import "./responsivetab1.css";
-import Aos from "aos";
-import { Route, Router, Routes } from "react-router-dom";
+// import Aos from "aos";
+import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import DailyProgram from "./pages/dailyprogram/DailyProgram";
@@ -14,19 +14,12 @@ import Regulations from "./pages/Regulations";
 import Resolution from "../src/pages/Resolution/Resolution"
 import TheTemple from "./pages/TheTemple";
 import PlacesAroundShirdi from "./pages/PlacesAroundShirdi";
-import Festival from "./pages/Festival";
-import PhotoGallery from "./pages/PhotoGallery";
 // import Regulations from "./pages/Regulations";
 
 // import { AdhocCommittee } from "./pages/AdhocCommittee";
 // import Regulations from "./pages/Regulations";
 // import History from "./pages/history/History"
 
-
-// import Regulations from "./pages/Regulations";
-// import { AdhocCommittee } from "./pages/AdhocCommittee";
-// import Regulations from "./pages/Regulations";
-// import History from "./pages/history/History"
 
 function App() {
   return (
@@ -40,11 +33,9 @@ function App() {
 
         <Route path="/history" element={<History />} />
 
-        <Route path="/resolution" element={<Resolution />} />placetovisit
+        <Route path="/resolution" element={<Resolution />} />
         <Route path="/the-temple" element={<TheTemple />} />
         <Route path="/placetovisit" element={<PlacesAroundShirdi/>} />
-        <Route path="/festival" element={<Festival/>} />
-        <Route path="/gallery" element={<PhotoGallery/>} />
 
       </Routes>
     </div>
