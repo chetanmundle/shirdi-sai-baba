@@ -15,6 +15,11 @@ import Resolution from "../src/pages/Resolution/Resolution"
 import TheTemple from "./pages/TheTemple";
 import PlacesAroundShirdi from "./pages/PlacesAroundShirdi";
 import Gallery from "./pages/PhotoGallery";
+import Saicharita from "./pages/saicharita/Saicharita";
+import SaileelaMag from "./pages/saileelaMag/SaileelaMag";
+import AnnualReports from "./pages/Annual Reports/AnnualReports";
+import Festival from "./pages/Festival";
+
 // import Regulations from "./pages/Regulations";
 
 // import { AdhocCommittee } from "./pages/AdhocCommittee";
@@ -38,6 +43,12 @@ function App() {
         <Route path="/the-temple" element={<TheTemple />} />
         <Route path="/placetovisit" element={<PlacesAroundShirdi/>} />
         <Route path="/gallery" element={<Gallery/>} />
+        <Route path="/saicharita" element={<Saicharita/>} />
+        <Route path="/saileelamag" element={<SaileelaMag/>} />
+        <Route path="/annualreports" element={<AnnualReports/>} />
+        <Route path="/festival" element={<Festival/>} />
+
+        
 
       </Routes>
     </div>
@@ -45,3 +56,5 @@ function App() {
 }
 
 export default App;
+
+
